@@ -66,6 +66,7 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid var(--accent-color);
 }
 .header > .container {
   display: flex;
@@ -172,8 +173,10 @@ body {
 }
 /*------------------Цінності компанії------------------*/
 .values {
-  width: 1128px;
-  padding: 95px 95px 95px 95px;
+  /* width: 1128px;
+  padding: 95px 95px 95px 95px; */
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .values-list {
   display: flex;
@@ -304,11 +307,13 @@ body {
 }
 /*------------------PORTFOLIO------------------*/
 .portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .portfolio-list {
   display: flex;
   justify-content: center;
-  padding-top: 96px;
+  /* padding-top: 96px; */
   margin-bottom: 72px;
 }
 .portfolio-item {
@@ -340,7 +345,7 @@ body {
   background-color: var(--pressed-state-color);
 }
 .gallery {
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -352,6 +357,8 @@ body {
 .gallery-item-box {
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 95px;
   border: 1px solid var(--accent-color);
   border-top: transparent;
 }
